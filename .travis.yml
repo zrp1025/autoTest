@@ -3,4 +3,4 @@ node_js :
   - stable
 install: 
   - npm install
-  
+script: mocha --require ts-node/register --reporter mochawesome  "test/*.test.ts"
